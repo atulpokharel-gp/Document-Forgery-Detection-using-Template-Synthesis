@@ -6,21 +6,22 @@ Requirements
 Make sure to install the required Python libraries before running the code. You can use the following commands to install the dependencies:
 
 bash
-Copy code
+""
 pip install tensorflow keras pillow pydot pydotplus
-Save to grepper
-Usage
+""
+
 Download the Model:
 
-Download the forgery detection model from Hugging Face and save it in the same directory as the script.
+Download the forgery detection model from Hugging Face(https://huggingface.co/Xtest/forgery_test/tree/main)  and save it in the same directory as the script.
 
 Run the Script:
 
 Execute the script by running the following command in your terminal:
 
 bash
-Copy code
+""
 python forgery_detection.py
+""
 You will be prompted to enter the path to the image you want to analyze. Please provide the complete path, and the system will output the prediction for the given image.
 
 Functions and Processes
